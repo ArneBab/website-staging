@@ -1,5 +1,71 @@
       <h1>News</h1>
 
+    <a name="build01467"><h3>23rd November 2014 - Freenet 0.7.5 build 1467 released</h3>
+
+<p>This release fixes a bug introduced in build 1466 which can erase the list of
+plugins to load when Freenet starts if it crashes. If you are affected by this
+bug and can no longer connect, try adding the UPnP or JSTUN plugins again.</p>
+
+<p>This release also has updated Finnish, French, Dutch, and Brazilian
+Portuguese translations thanks to <a
+href="https://www.transifex.com/projects/p/freenet/">volunteers on
+Transifex</a>.</p>
+
+<p>The Windows installer is updated:</p>
+
+<ul>
+<li>It now disables the Java installer's sponsor offers. Thanks artart78!</li>
+<li>It gained a Finnish translation. Thanks oselotti!</li>
+</ul>
+
+<p>Thank you for using Freenet!</p>
+
+<p>- Steve Dougherty</p>
+
+    <a name="build01466"><h3>9th November 2014 - Freenet 0.7.5 build 1466 released</h3>
+
+<p>This release is planned to be the second-to-last version of Freenet to 
+support Java 6. The version after this one will refuse to upgrade 
+unless running on Java 7 or later. Support for this behavior is part of 
+a larger effort to allow separate official update channels - stable, 
+testing, and unstable - as well as make it easier to publish unofficial 
+update channels and further improve deployment security.</p>
+
+<p>Highlights for this build:</p>
+
+<ul>
+<li>Add Hungarian Windows installer translation. Thanks drezzium!</li>
+<li>Allow hiding the Java version End Of Life alert. (I'm sorry for the excessive annoyingness. Still - please upgrade Java!)</li>
+<li>Upgrades to the next version (that is, when running this build's upgrade code) should no longer get <a href="https://bugs.freenetproject.org/view.php?id=3208">stuck in an upgrade loop</a>.</li>
+<li>Increase opennet peer limit to 142 peers. This now has <a href="https://github.com/freenet/fred/pull/286">more math behind it</a> and will change when network parameters are adjusted.</li>
+<li>Add more opennet seed nodes. Thanks saces and juiceman!</li>
+<li>This build will be mandatory starting 2014-11-16, because old nodes will reject new nodes with more than 110 peers. Updates only take a few hours to spread, so this should only cause short term disruption.</li>
+</ul>
+
+<p>Additionally Matthew's  (toad_'s) summer work on a custom on-disk 
+format is done. This release lays the groundwork to include the results 
+of that work <a href="http://127.0.0.1:8888/USK@pxtehd-TmfJwyNUAW2Clk4pwv7Nshyg21NNfXcqzFv4,LTjcTWqvsq3ju6pMGe9Cqb3scvQgECG81hRdgj5WO4s,AQACAAE/blog/23/Content-626611C.html">in the next release</a>. This is designed for less 
+disk activity and better behavior when corrupted.</p>
+
+<p>This release coincides with the 25th anniversary of the demolition of 
+the Berlin wall (Mauerfall), which marked the beginning of the end of a 
+large censorship and surveillance regime. May censorship be demolished
+everywhere!</p>
+
+<p>Thank you for using Freenet!</p>
+
+<p>- Steve Dougherty and Arne Babenhauserheide</p>
+
+<p>The link to http://127.0.0.1:8888 works for default Freenet nodes, but will not 
+work for some setups. If you have a nonstandard setup, you should know 
+the correct URL to use.</p>
+
+    <a name="downloads"><h3>27th September 2014 - Recent download problems</h3>
+
+<p>We've changed download hosting in hope of avoiding the problems with
+the previous service. If you find problems please drop in <a href="/irc.html">chat</a>
+or the <a href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/support">support list</a> and let us know!</p>
+
     <a name="build01465"><h3>9th August 2014 - Freenet 0.7.5 build 1465 released</h3>
 
 <p>Oracle Java 6 has not received security updates <a href="http://www.oracle.com/technetwork/java/javase/eol-135779.html">since February 2013</a>. Starting with this release, Freenet displays <a href="https://github.com/freenet/fred/pull/269">an alert</a> when running on old versions of Java. It will require Java 7 or later in a future release.</p>

@@ -21,7 +21,7 @@
       
       <p>You can obtain the latest source code from git using the following command line:</p>
       <pre>
-	git clone git://github.com/freenet/fred-staging.git</pre>
+	git clone git://github.com/freenet/fred.git</pre>
 
       <p>Once you have cloned the repository, to get new changes you should do:</p>
       <pre>
@@ -125,7 +125,7 @@
       <p>Or:</p>
       <pre>
 	git commit [ filenames you want to commit ]</pre>
-      <p>To upload your changes (assuming you have cloned the -staging tree):</p>
+      <p>To upload your changes:</p>
       <pre>
 	git push origin</pre>
       <p>To view recent changes:</p>
@@ -167,7 +167,12 @@
 	contact contributors, so you should use a real (working) email address (we 
 	will provide an @freenetproject.org redirect if you need one), or see the
 	section on contributing through Freenet below.</p>
-	
+
+    <p>Project coding standards are documented
+    <a href="https://wiki.freenetproject.org/Coding_standards">here</a>. Commits
+    which do not follow these standards are likely to be rejected.
+    </p>
+
     <p>We strongly discourage "dropping a bomb", that is, sending in a huge patch with
     no history. This can be both harder to understand and risky legally (think SCO vs IBM).
     For large projects, you should post a git branch, on github or on Freenet, so we can merge
@@ -201,10 +206,10 @@
     tree.</p>
     
         <h3>The website</h3>
-    <p>To edit the website, check out the website-staging repository, edit the files (in pages/en/),
-    commit and push as above. Then remind Toad to deploy it if he doesn't do so in a reasonable time.
-    Alternatively, fork the website module on github, and then post a pull request. This may actually
-    get results more quickly!</p>
+    <p>To edit the website, fork the website repository, edit the files (in pages/en/),
+    commit and push as above. Then post a pull request and remind administrators
+    to deploy it if isn't done in reasonable time.
+    </p>
     <p>The website is php-based but is compiled at deploy time into static HTML. You can simulate this
     to see exactly what your changes will look like by running the make-pages.sh script (you will need
     php5-cgi). This outputs static HTML to output/.</p>

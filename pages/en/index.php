@@ -77,7 +77,7 @@ $(document).ready(function() {
       </div>
 
       <div id="windows" class="sprites download">
-   	<a href="https://freenetproject.org/jnlp/FreenetInstaller.exe">
+   	<a href="jnlp/FreenetInstaller.exe">
    	   <span id="software">Freenet</span>
    	   <span id="action">Download</span>
    	   <span id="version">0.7.5 for Windows</span>
@@ -85,7 +85,7 @@ $(document).ready(function() {
       </div>
 
       <div id="macos" class="sprites download">
-        <a href="/jnlp/freenet.jnlp">
+        <a href="download.html#nojws">
    	   <span id="software">Freenet</span>
    	   <span id="action">Install</span>
    	   <span id="version">0.7.5 for Mac OS</span>
@@ -94,7 +94,7 @@ $(document).ready(function() {
 	
 	<div id="unix">
 	     <div class="download sprites">
-	     	  <a href="/jnlp/freenet.jnlp">
+	     	  <a href="download.html#nojws">
 	     	     <span id="software">Freenet</span>
 	     	     <span id="action">Install</span>
 	     	     <span id="version">0.7.5 for Linux/Unix</span>
@@ -116,27 +116,22 @@ $(document).ready(function() {
 <!--	     <p>Our current balance of <b>$MONEYBALANCE</b> will pay for this server and our one paid developer for around another <b>MONEYDAYS days</b>.</p> -->
 	     <p><a href="donate.html">Donate!</a></p>
 	</div>
-  <div id="testimonials">
-<!--todo: random testimonial, as soon as we have enough-->
-	<h4>Testimonials</h4>
-<blockquote>I’ve been running pure darknet with 7 peers for months and it works well (without WoT or bigger downloads). Once I had 15 darknet peers and did not see much of a difference compared to a 15-peer opennet node. — Ratchet</blockquote>
-  </div>
   <div id="news">
 	<h4>Latest news</h4>
 
-    <p>
-      Release notes are posted in the <a href="https://emu.freenetproject.org/pipermail/devl/">devl archive</a>.
-    </p>
 	<p>
-		  (9th August 2014) <a href="news.html#build01465">Freenet 0.7.5 build 1465 released</a><br/>
-		  (12th July 2014) <a href="news.html#build01464">Freenet 0.7.5 build 1464 released</a><br/>
-		  (14th June 2014) <a href="news.html#build01463">Freenet 0.7.5 build 1463 released</a><br/>
-		  (26th May 2014) <a href="news.html#build01462">Freenet 0.7.5 build 1462 released</a><br/>
-		  (30th March 2014) <a href="news.html#build01461">Freenet 0.7.5 build 1461 released</a><br/>
+		  (2014-11-23) <a href="news.html#build01467">Freenet 0.7.5 build 1467 released</a><br/>
+		  (2014-11-09) <a href="news.html#build01466">Freenet 0.7.5 build 1466 released</a><br/>
+		  (2014-09-27) <a href="news.html#downloads">Recent download problems</a></br>
+		  (2014-08-09) <a href="news.html#build01465">Freenet 0.7.5 build 1465 released</a><br/>
+		  (2014-07-12) <a href="news.html#build01464">Freenet 0.7.5 build 1464 released</a><br/>
           </p>
     <p>
 	  <a href="news.html">Older news</a>
 	</p>
+    <p>
+      Release notes with more details intended for developers are posted to the <a href="https://emu.freenetproject.org/pipermail/devl/">devl mailing list</a>.
+    </p>
       </div>
 
 
